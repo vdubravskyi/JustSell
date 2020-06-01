@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\JustSell.Data\JustSell.Data.csproj" />
+    <ProjectReference Include="..\JustSell.Bussiness.Common\JustSell.Bussiness.Common.csproj" />
+  </ItemGroup>
+
+</Project>
